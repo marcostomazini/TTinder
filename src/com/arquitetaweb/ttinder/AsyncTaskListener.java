@@ -1,11 +1,11 @@
 package com.arquitetaweb.ttinder;
 
-import com.arquitetaweb.ttinder.dto.FeiraModel;
+import com.arquitetaweb.ttinder.dto.MatchModel;
 
 /**
  * Created by Marcos on 09/08/2014.
  */
 
 public interface AsyncTaskListener{
-    public void onTaskComplete(FeiraModel[] result);
+    public void onTaskComplete(MatchModel[] result);
 }
